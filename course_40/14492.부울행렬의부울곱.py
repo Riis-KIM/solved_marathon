@@ -1,6 +1,6 @@
-def check(i, j, N):
-    for t in range(N):
-        if (A[i][t] == 1 and B[t][j] == 1):
+def check(a, b, n):
+    for t in range(n):
+        if A[a][t] == 1 and B[t][b] == 1:
             return True
 
     return False
